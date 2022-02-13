@@ -1,0 +1,77 @@
+.About_section{
+    background: black;
+    padding: 7.5rem 4rem 3rem 4rem;
+    img{
+        width: 90%;
+    }
+}
+.about_deatils{
+    color: white;
+    p:nth-child(1){
+        font-family: 'Tomatoes';
+        font-size: 8rem;
+    }
+    p:nth-child(2){
+        font-family: 'Tomatoes';
+        font-size: 5rem;
+    }
+    p:nth-child(3){
+        font-size: 1.5rem;
+    }
+}
+
+
+// ***********************************************************************mobile devices **********************************************************************************
+  
+  
+  
+@media (max-width: 600px){
+    .About_section{
+        background: black;
+        padding: 10rem 4rem 3rem 4rem;
+        img{
+            width: 100%;
+        }
+    }
+    .about_deatils{
+        color: white;
+        padding: 50px 0 20px 0;
+        p:nth-child(1){
+            font-family: 'Tomatoes';
+            font-size: 2rem;
+        }
+        p:nth-child(2){
+            font-family: 'Tomatoes';
+            font-size: 2.5rem;
+        }
+        p:nth-child(3){
+            font-size: 1.5rem;
+        }
+    }
+    
+}
+@media (max-width: 1366px) and (min-width: 600px){
+    .About_section{
+        background: black;
+        padding: 10rem 4rem 3rem 4rem;
+        img{
+            width: 100%;
+        }
+    }
+    .about_deatils{
+        color: white;
+        padding: 50px 0 20px 0;
+        p:nth-child(1){
+            font-family: 'Tomatoes';
+            font-size: 5rem;
+        }
+        p:nth-child(2){
+            font-family: 'Tomatoes';
+            font-size: 6rem;
+        }
+        p:nth-child(3){
+            font-size: 1.5rem;
+        }
+    }
+    
+}

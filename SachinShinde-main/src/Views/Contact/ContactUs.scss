@@ -1,0 +1,214 @@
+.contact_section{
+    width: 100%;
+    height: 100%;
+    background: black;
+    padding: 7.5rem 4rem 3rem 4rem;
+    color: white;
+    text-align: center;
+    p:nth-child(1){
+        font-size: 2.5rem;
+        font-family: 'Tomatoes';
+    }
+    p:nth-child(2){
+        font-size: 4rem;
+        padding-top: 1rem;
+    }
+}
+.form_section{
+   width: 40%;
+   margin: auto;
+   text-align: left; 
+   padding: 2rem 0;
+   input{
+       background: black;
+       border-radius: 0;
+       border-color: grey;
+       color: white;
+       &::placeholder{
+           color: grey !important;
+           opacity: 0.5;
+       }
+       &:focus{
+           box-shadow: none;
+       }
+   }
+   label{
+       font-size: 0.8rem;
+       letter-spacing: 2px;
+   } 
+   textarea{
+    background: black;
+    border-radius: 0;
+    border-color: grey;
+    color: white;
+    height: 7em;
+    &::placeholder{
+        color: grey !important;
+        opacity: 0.5;
+    }
+    &:focus{
+        box-shadow: none;
+    }
+   }
+   button{
+       background: white;
+       color: black;
+       margin: auto;
+       width: 230px;
+       border-radius: 0;
+       border: 1px solid white;
+       transition: .2s;
+       padding: 5px !important;
+       &:hover{
+           background: black;
+           color: white;
+           transition: .2s;
+       }
+   }
+   p{
+    font-size: 1rem !important;
+    padding-top: 1rem;
+    color: grey;
+    letter-spacing: 2px;
+    }
+}
+
+// map section
+
+.map-section{
+    padding: 6rem 0;
+    img{
+        width: 100%;
+    }
+}
+.address_div{
+    text-align: left;
+    letter-spacing: 2px;
+    img{
+        width: 22px;
+        margin-right: 10px;
+    }
+    p:nth-child(1){
+        font-size: 4rem;
+        font-family: 'Bebas-Regular';
+    }
+    td{
+        font-size: 1rem;
+        padding: 0.5rem 0;
+    }
+}
+
+
+
+ 
+  // ***********************************************************************mobile devices **********************************************************************************
+  
+  
+  
+@media (max-width: 1366px){
+    .contact_section{
+        width: 100%;
+        height: 100%;
+        background: black;
+        padding: 7.5rem 2rem 3rem 2rem;
+        color: white;
+        text-align: center;
+        p:nth-child(1){
+            font-size: 2.5rem;
+            font-family: 'Tomatoes';
+        }
+        p:nth-child(2){
+            font-size: 4rem;
+            padding-top: 1rem;
+        }
+    }
+    .form_section{
+       width: 80%;
+       margin: auto;
+       text-align: left; 
+       padding: 2rem 0;
+       input{
+           background: black;
+           border-radius: 0;
+           border-color: grey;
+           color: white;
+           &::placeholder{
+               color: grey !important;
+               opacity: 0.5;
+           }
+           &:focus{
+               box-shadow: none;
+           }
+       }
+       label{
+           font-size: 0.8rem;
+           letter-spacing: 2px;
+       } 
+       textarea{
+        background: black;
+        border-radius: 0;
+        border-color: grey;
+        color: white;
+        height: 7em;
+        &::placeholder{
+            color: grey !important;
+            opacity: 0.5;
+        }
+        &:focus{
+            box-shadow: none;
+        }
+       }
+       button{
+           background: white;
+           color: black;
+           margin: auto;
+           width: 230px;
+           border-radius: 0;
+           border: 1px solid white;
+           transition: .2s;
+           padding: 5px !important;
+           margin-top: 40px;
+           &:hover{
+               background: black;
+               color: white;
+               transition: .2s;
+           }
+       }
+       p{
+        font-size: 1rem !important;
+        padding-top: 1rem;
+        color: grey;
+        letter-spacing: 2px;
+        }
+    }
+    
+    // map section
+    
+    .map-section{
+        padding: 3rem 0;
+        img{
+            width: 100%;
+        }
+    }
+    .address_div{
+        text-align: left;
+        letter-spacing: 2px;
+        padding-top: 30px;
+        img{
+            width: 22px;
+            margin-right: 10px;
+        }
+        p:nth-child(1){
+            font-size: 4rem;
+            font-family: 'Bebas-Regular';
+        }
+        td{
+            font-size: 1rem;
+            padding: 0.5rem 0;
+        }
+    }
+    
+}
+  
+  
+ 
